@@ -44,7 +44,7 @@ const About = () => {
 
 
             <ButtonLink
-              url='https://drive.google.com/file/d/19sPnmsvF0MzDl_mfYK-7PhD4f8cirCeF/view?usp=drive_link'
+              url='https://drive.google.com/file/d/1jygvYUU3pPFfEYfbCSLH_ZHn25M7OwG9/view'
               text='View Resume →'
               padding={`p-3`}
             />
