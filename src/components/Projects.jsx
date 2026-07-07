@@ -9,12 +9,23 @@ import Footer from './Footer'
 const ProjectCard = ({image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm bg-gray-900 border rounded-lg shadow sm:max-w-sm md:max-w-sm border-neutral-100 dark:bg-gray-800 dark:border-gray-700">
-            {title==='Tic Tac Toe With Ai' && <a href="#">
-                <img className="object-cover w-full h-auto rounded-t-lg " src={image} alt="" />
-            </a>}
-            {title==='INTERVIEW-PREP' && <a href="#">
-                <img className="object-cover w-full h-auto rounded-t-lg " src={image} alt="" />
-            </a>}
+           {title==='Tic Tac Toe With Ai' && (
+    <a href={git} target="_blank" rel="noopener noreferrer">
+        <img className="object-cover w-full h-auto rounded-t-lg" src={image} alt="" />
+    </a>
+)}
+
+{title==='Tic Tac Toe With Ai' && (
+    <a href={git} target="_blank" rel="noopener noreferrer">
+        <img className="object-cover w-full h-auto rounded-t-lg" src={image} alt="" />
+    </a>
+)}
+
+{title==='INTERVIEW-PREP' && (
+    <a href={git} target="_blank" rel="noopener noreferrer">
+        <img className="object-cover w-full h-auto rounded-t-lg" src={image} alt="" />
+    </a>
+)}
             <div className="p-4 sm:p-6">
                 <a href="#">
                     <h5 className="text-2xl font-bold tracking-tight text-transparent text-white sm:text-xl md:text-2xl lg:text-3xl bg-clip-text bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
