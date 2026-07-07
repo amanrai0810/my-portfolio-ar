@@ -27,7 +27,7 @@ const ProjectCard = ({image, title, description, git, technologies }) => {
     </a>
 )}
             <div className="p-4 sm:p-6">
-                <a href="#">
+                <a href={git} target="_blank" rel="noopener noreferrer">
                     <h5 className="text-2xl font-bold tracking-tight text-transparent text-white sm:text-xl md:text-2xl lg:text-3xl bg-clip-text bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
                 </a>
                 <p className="text-sm font-normal text-gray-300 sm:text-base md:text-lg dark:text-gray-400">{description}</p>
