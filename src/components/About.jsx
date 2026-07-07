@@ -32,7 +32,7 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='px-2 sm:px-16'>
             <h2 className='mt-2 text-4xl font-extrabold sm:text-5xl'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Aman Rai, a 2026 graduate🎓, with a passion for designing dynamic user interfaces and developing scalable Java applications. As an experienced <a className='text-green-300 duration-300 hover:text-green-500' href='https://www.linkedin.com/in/amanrai21/' target='_blank'>Frontend Developer and Java Developer</a>, I specialize in System Design🚀.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Aman Rai, a 2026 graduate🎓, with a passion for designing dynamic user interfaces and developing scalable Java applications. As an experienced <a className='text-green-300 duration-300 hover:text-green-500' href='https://www.linkedin.com/in/amanrai21/' target='_blank ' rel='noopener noreferrer'>Frontend Developer and Java Developer</a>, I specialize in System Design🚀.
               <br />
               My technical skills include:<br/>
               Languages: Java, SQL, JavaScript<br/>
